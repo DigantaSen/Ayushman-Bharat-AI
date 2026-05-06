@@ -23,9 +23,6 @@ build/
 secrets.txt
 api_keys.txt
 
-# ── ChromaDB vector store (large, auto-rebuilt from PDFs) ─────
-chroma_db/
-
 # ── Streamlit cache ───────────────────────────────────────────
 .streamlit/
 
