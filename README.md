@@ -10,6 +10,9 @@
 | Diganta Sen | 2025201050 | diganta.sen@students.iiit.ac.in |
 | Surjit Mandal | 2025201057 | surjit.mandal@students.iiit.ac.in |
 
+> **Dataset:** [Google Drive Link](https://drive.google.com/drive/folders/142-w3AWPS5FhVqoC5l_BoH6uSpl9KSnu)
+> **Demo Video:** [Google Drive Link](https://drive.google.com/file/d/1CuQl6hAgYufhl-tfxXz2A5KMpbVStwHt)
+
 ---
 
 A **Retrieval-Augmented Generation (RAG)** chatbot that answers questions about India's PM-JAY (Pradhan Mantri Jan Arogya Yojana) health scheme strictly from official NHA documents — no hallucination, no external knowledge.
