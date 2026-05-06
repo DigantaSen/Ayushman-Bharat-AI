@@ -1,6 +1,8 @@
 # Ayushman Bharat AI — PM-JAY RAG Chatbot
 
 > **Group:** BongoAI &nbsp;|&nbsp; **Course:** CS6690 — Statistical Methods in AI &nbsp;|&nbsp; **Assignment 3**
+>
+> **GitHub:** https://github.com/DigantaSen/Ayushman-Bharat-AI
 
 | Name | Roll No. | Email |
 |---|---|---|
@@ -43,8 +45,8 @@ Assignment3_2/
 
 ### 1. Clone and enter directory
 ```bash
-git clone https://github.com/[username]/[repo-name]
-cd [repo-name]
+git clone https://github.com/DigantaSen/Ayushman-Bharat-AI
+cd Ayushman-Bharat-AI
 ```
 
 ### 2. Create a virtual environment (recommended)
