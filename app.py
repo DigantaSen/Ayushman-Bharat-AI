@@ -1,6 +1,10 @@
 # ── Silence HuggingFace / transformers log spam before any other import ───────
 import os, logging, warnings
 
+# Force pure-Python protobuf: avoids _CheckCalledFromGeneratedFile crash
+# that chromadb/opentelemetry triggers on Python 3.14 with protobuf>=4.21
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 os.environ["TRANSFORMERS_VERBOSITY"]       = "error"
 os.environ["TOKENIZERS_PARALLELISM"]       = "false"
 os.environ["HF_HUB_DISABLE_SYMLINKS_WARNING"] = "1"
