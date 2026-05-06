@@ -1,0 +1,67 @@
+# ── Virtual environments ──────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+data/
+
+# ── Python ────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# ── Environment / secrets ─────────────────────────────────────
+.env
+.env.local
+*.env
+secrets.txt
+api_keys.txt
+
+# ── ChromaDB vector store (large, auto-rebuilt from PDFs) ─────
+chroma_db/
+
+# ── Streamlit cache ───────────────────────────────────────────
+.streamlit/
+
+# ── Jupyter ───────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── LaTeX auxiliary files ─────────────────────────────────────
+*.aux
+*.log
+*.toc
+*.out
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# ── OS ────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE ───────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+
+# ── Compiled PDF (generated from report.tex) ─────────────────
+report.pdf
+
+# ── Evaluation output (regenerable) ──────────────────────────
+eval_results.json
+
+# ── Zip / archives ────────────────────────────────────────────
+*.zip
+*.tar.gz
+*.rar
