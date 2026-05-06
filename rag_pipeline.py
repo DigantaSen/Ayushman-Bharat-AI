@@ -3,10 +3,6 @@ import glob
 import logging
 import warnings
 
-# Force pure-Python protobuf: avoids _CheckCalledFromGeneratedFile crash
-# on Python 3.14 with chromadb/opentelemetry + protobuf>=4.21
-os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
-
 # ── Silence HuggingFace / transformers noise (env vars + logging API) ─────────
 os.environ.setdefault("TRANSFORMERS_VERBOSITY", "error")
 os.environ.setdefault("TOKENIZERS_PARALLELISM", "false")
